@@ -26,12 +26,12 @@ body {
     font-weight: bolder;
 }
 
-.bigtext {
+.dataleft h1 {
     padding:0;
     margin:0;
 }
 
-.smalltext {
+.dataleft p{
     font-size: 14px;
     font-weight: lighter;
 }
