@@ -11,29 +11,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:1em 5em;
+    align-items: center;
+    padding:1em 0px;
 }
 
 .navbar {
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-}
-
-.topdata {
-    margin:auto;
-    display:flex;
-    font-weight: bolder;
-}
-
-.dataleft h1 {
-    padding:0;
-    margin:0;
-}
-
-.dataleft p{
-    font-size: 14px;
-    font-weight: lighter;
+    margin-bottom:3em;
+    gap:1em;
+    width:100%;
 }
 
 .logo {
@@ -56,6 +44,48 @@ body {
 }
 
 .navigation li {
-    font-size: 18px;
+    font-size: 14px;
     color:#E5E7EB;
+}
+
+.topdata {
+    display:flex;
+    flex-wrap:wrap;
+    font-weight: bolder;
+    gap:3em;
+    margin-bottom:2em;
+}
+
+.dataleft{
+    flex:0.8;
+}
+
+.dataright {
+    flex:1.2;
+}
+
+.dataleft h1 {
+    padding:0;
+    margin:0;
+    font-size:38px;
+}
+
+.dataleft p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.dataleft button {
+    background-color:#3882F6;
+    padding:8px 14px;
+    border-radius: 8px;
+    color:#E5E7EB;
+}
+
+.image {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:grey;
+    height:100%;
 }
