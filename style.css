@@ -17,14 +17,15 @@ body {
 
 .navbar {
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom:3em;
     gap:1em;
-    width:100%;
+    max-width:1017px;
+    align-self:center;
 }
 
-.logo {
+.navbar h3 {
     margin-top:0;
     font-size: 24px;
     margin-right: auto;
@@ -80,6 +81,7 @@ body {
     padding:8px 14px;
     border-radius: 8px;
     color:#E5E7EB;
+    border:0;
 }
 
 .image {
