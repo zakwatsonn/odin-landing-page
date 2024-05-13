@@ -20,25 +20,26 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin-bottom:3em;
-    gap:1em;
     max-width:1017px;
     align-self:center;
+    gap:2em;
 }
 
 .navbar h3 {
     margin-top:0;
     font-size: 24px;
-    margin-right: auto;
+    margin:0;
+    flex:1.2 0 auto;
 }
 
 .navigation {
     list-style-type: none;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding:0;
-    margin-top: 0;
+    margin: 0;
     gap:1em;
+    flex:0.8 0 auto;
 }
 .navigation a {
     text-decoration: none;
@@ -53,6 +54,7 @@ body {
     display:flex;
     flex-wrap:wrap;
     font-weight: bolder;
+    padding:2em;
     gap:3em;
     margin-bottom:2em;
 }
@@ -90,4 +92,34 @@ body {
     align-items:center;
     background-color:grey;
     height:100%;
+}
+
+.sectiontwo {
+    color:#1F2937;
+    text-align: center;
+}
+
+.sectiontwo h1 {
+    margin: 2em 0;
+}
+
+.card-view {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:3em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width:12em;
+}
+
+.box {
+    border:5px solid #3882F6;
+    height:12em;
+    width:12em;
+    border-radius: 20px;
 }
