@@ -151,3 +151,41 @@ body {
     font-weight: bold;
     margin-left: auto;
 }
+
+.sectionfour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:4em 6em;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding :1.5em 5em;
+    gap:3em;
+    border-radius: 7px;;
+}
+
+.bluebox-left h3, .bluebox-left p {
+    margin:0;
+}
+
+.bluebox button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding:6px 22px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.5em;
+    background-color: #1F2937;
+}
